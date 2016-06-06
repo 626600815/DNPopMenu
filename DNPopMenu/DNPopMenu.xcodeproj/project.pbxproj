@@ -19,6 +19,7 @@
 		516051E31D0284F6007BB954 /* DNPopMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 516051E01D0284F6007BB954 /* DNPopMenuItemView.m */; };
 		516051E81D028535007BB954 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516051E71D028535007BB954 /* HomeViewController.m */; };
 		516052021D028685007BB954 /* PopMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 516052011D028685007BB954 /* PopMenu.bundle */; };
+		51767FA21D05461100A5644C /* ss.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51767FA11D05461100A5644C /* ss.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		516051E61D028535007BB954 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		516051E71D028535007BB954 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		516052011D028685007BB954 /* PopMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PopMenu.bundle; sourceTree = "<group>"; };
+		51767FA11D05461100A5644C /* ss.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ss.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		5160519B1D0284C9007BB954 = {
 			isa = PBXGroup;
 			children = (
+				51767FA11D05461100A5644C /* ss.gif */,
 				516051A61D0284C9007BB954 /* DNPopMenu */,
 				516051C01D0284C9007BB954 /* DNPopMenuTests */,
 				516051CB1D0284C9007BB954 /* DNPopMenuUITests */,
@@ -269,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51767FA21D05461100A5644C /* ss.gif in Resources */,
 				516051B71D0284C9007BB954 /* LaunchScreen.storyboard in Resources */,
 				516051B41D0284C9007BB954 /* Assets.xcassets in Resources */,
 				516052021D028685007BB954 /* PopMenu.bundle in Resources */,
@@ -526,6 +530,7 @@
 				516051D31D0284C9007BB954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		516051D41D0284C9007BB954 /* Build configuration list for PBXNativeTarget "DNPopMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				516051D61D0284C9007BB954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		516051D71D0284C9007BB954 /* Build configuration list for PBXNativeTarget "DNPopMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				516051D91D0284C9007BB954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
