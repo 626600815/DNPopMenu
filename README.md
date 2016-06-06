@@ -36,13 +36,14 @@
         return _popMenu;
     }
 
-//显示Menu
+显示Menu
 
     [self.popMenu showMenuAtPoint:CGPointZero];
 
 
 ####注意事项
 处理ios7之后cell下移问题 ,在controller中添加适配代码
+
      if ([self respondsToSelector:@selector(automaticallyAdjustsScrollViewInsets)]) {
             self.automaticallyAdjustsScrollViewInsets = NO;
         }
